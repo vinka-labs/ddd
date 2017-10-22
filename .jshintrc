@@ -1,0 +1,75 @@
+{
+  /*
+   * ENVIRONMENTS
+   * =================
+   */
+
+  // Define globals exposed by modern browsers.
+  "browser": false,
+
+  // Define globals exposed by jQuery.
+  "jquery": false,
+
+  // Define globals exposed by Node.js.
+  "node": true,
+
+  /*
+   * ENFORCING OPTIONS
+   * =================
+   */
+
+  // Force all variable names to use either camelCase style or UPPER_CASE
+  // with underscores.
+  "camelcase": true,
+
+  // Prohibit use of == and != in favor of === and !==.
+  "eqeqeq": true,
+
+  // Suppress warnings about == null comparisons.
+  "eqnull": true,
+
+  // Enforce tab width of 4 spaces.
+  "indent": 4,
+
+  // Prohibit use of a variable before it is defined.
+  "latedef": true,
+
+  // Require capitalized names for constructor functions.
+  "newcap": true,
+
+  // Enforce use of single quotation marks for strings.
+  "quotmark": "single",
+
+  // Prohibit trailing whitespace.
+  "trailing": true,
+
+  // Prohibit use of explicitly undeclared variables.
+  "undef": true,
+
+  // Warn when variables are defined but never used.
+  "unused": true,
+
+  // Enforce line length to 120 characters
+  "maxlen": 120,
+
+  // Enforce placing 'use strict' at the top function scope
+  "strict": true,
+
+  // Support ECMAScript 6 features
+  "esnext": true,
+
+  // Prevent bitwise operations
+  "bitwise": true,
+
+  // Enforce curly braces for one line blocks
+  "curly": true,
+
+  // Enforce parenthesis around immediate functions (module pattern)
+  "immed": true,
+
+  // Prevent the use of arguments.caller and arguments.callee
+  "noarg": true,
+
+  // No tabs, whatsoever
+  "smarttabs": false
+}

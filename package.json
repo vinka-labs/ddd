@@ -1,0 +1,23 @@
+{
+  "name": "@vinka/clock",
+  "version": "1.0.0",
+  "description": "DDD Base Classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v -P test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinka-labs/ddd.git"
+  },
+  "author": "Vinka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinka-labs/ddd/issues"
+  },
+  "homepage": "https://github.com/vinka-labs/clock#readme",
+  "devDependencies": {
+    "code": "^4.1.0",
+    "lab": "^14.1.1"
+  }
+}

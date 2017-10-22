@@ -1,0 +1,3 @@
+# DDD Base classes
+
+- Factory
