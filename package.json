@@ -1,5 +1,5 @@
 {
-  "name": "@vinka/clock",
+  "name": "@vinka/ddd",
   "version": "1.0.0",
   "description": "DDD Base Classes",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/vinka-labs/clock#readme",
   "devDependencies": {
-    "code": "^4.1.0",
-    "lab": "^14.1.1"
+    "code": "^5.1.0",
+    "lab": "^14.3.1"
   }
 }
