@@ -4,7 +4,9 @@
   "description": "DDD Base Classes",
   "main": "index.js",
   "scripts": {
-    "test": "lab -v -P test"
+    "test": "lab -v -P test",
+    "lint": "jshint lib test",
+    "style": "jscs lib test"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   "homepage": "https://github.com/vinka-labs/clock#readme",
   "devDependencies": {
     "code": "^5.1.0",
-    "lab": "^14.3.1"
+    "jscs": "^3.0.7",
+    "jscs-preset-loris": "^1.2.0",
+    "jshint": "^2.9.5",
+    "lab": "^14.3.1",
+    "moment": "^2.19.1"
   }
 }
